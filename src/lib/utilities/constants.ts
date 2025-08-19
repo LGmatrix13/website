@@ -8,6 +8,6 @@ export const LINKS = Object.freeze({
 	GITHUB_NARRO: 'https://github.com/LGmatrix13/narro',
 	LINKEDIN_BEHAIVIOR: 'https://www.linkedin.com/company/behaivior/',
 	LINKEDIN_INTAPP: 'https://www.linkedin.com/company/intapp/',
-	GCC: 'https://gcc.edu',
+	DB: 'https://db.com',
 	RESUME: '/resume.pdf'
 });

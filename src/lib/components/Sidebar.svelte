@@ -14,7 +14,7 @@
 			<p>
 				I'm a Software Engineer at<br />
 				{' '}
-				<a href={LINKS.GCC} target="_blank" rel="noopener noreferrer">
+				<a href={LINKS.DB} target="_blank" rel="noopener noreferrer">
 					<span class="text-blue-600 hover:text-blue-800"> Deutsche Bank. </span>
 				</a>
 			</p>
@@ -42,10 +42,14 @@
 	</div>
 	<div class="flex space-x-3">
 		<a href={LINKS.GITHUB} target="_blank" rel="noopener noreferrer">
-			<GithubIcon className="w-5 h-5 opacity-60 grayscale-60" />
+			<GithubIcon
+				className="w-5 h-5 opacity-60 grayscale-60 hover:opacity-80 transition ease-in-out"
+			/>
 		</a>
 		<a href={LINKS.LINKEDIN} target="_blank" rel="noopener noreferrer">
-			<LinkedinIcon className="w-5 h-5 opacity-60 grayscale-60" />
+			<LinkedinIcon
+				className="w-5 h-5 opacity-60 grayscale-60 hover:opacity-80 transition ease-in-out"
+			/>
 		</a>
 	</div>
 </aside>
