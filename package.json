@@ -37,6 +37,7 @@
 	},
 	"dependencies": {
 		"@fontsource-variable/dm-sans": "^5.2.6",
-		"lucide-svelte": "^0.540.0"
+		"lucide-svelte": "^0.540.0",
+		"motion": "^12.23.12"
 	}
 }

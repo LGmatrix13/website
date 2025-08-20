@@ -1,8 +1,9 @@
 <script lang="ts">
 	import Experience from '$lib/components/Experience.svelte';
+	import { animations } from '$lib/utilities/animations';
 </script>
 
-<section id="experience" class="flex flex-grow flex-col">
+<section id="experience" class="flex flex-grow flex-col" use:animations.fadeBlurIn>
 	<h2 class="px-5 pt-5 text-lg font-bold">Experience</h2>
 	<Experience
 		company="Deutsche Bank"

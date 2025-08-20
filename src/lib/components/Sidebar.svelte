@@ -20,6 +20,15 @@
 			</p>
 		</div>
 		<div class="flex flex-col space-y-3">
+			<a href="/">
+				<span
+					class={`font-medium ${
+						page.url.pathname === '/' ? 'underline decoration-blue-600 decoration-2' : ''
+					}`}
+				>
+					About Me
+				</span>
+			</a>
 			<a href="/experience">
 				<span
 					class={`font-medium ${

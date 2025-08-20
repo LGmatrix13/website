@@ -1,9 +1,10 @@
 <script>
 	import Project from '$lib/components/Project.svelte';
+	import { animations } from '$lib/utilities/animations';
 	import { LINKS } from '$lib/utilities/constants';
 </script>
 
-<section id="projects" class="flex flex-grow flex-col">
+<section id="projects" class="flex flex-grow flex-col" use:animations.fadeBlurIn>
 	<h2 class="px-5 pt-5 text-lg font-bold">Projects</h2>
 	<Project
 		name="Hymn Together"
