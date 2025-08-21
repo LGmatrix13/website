@@ -8,14 +8,70 @@
 <section id="blog" class="flex flex-grow flex-col" use:animations.fadeBlurIn>
 	<h2 class="px-5 pt-5 text-lg font-bold text-black">Open Source</h2>
 	<Project
-		name="Hymn Together"
-		description="Native iOS app for listening, sharing, and saving hymns."
-		github={LINKS.GITHUB_HYMN_TOGETHER}
+		name="Mini Model"
+		description="Create refined, specilized models and agents with LLMs."
+		github={LINKS.GITHUB_HYPUR}
 		languages={[
 			{
-				name: 'Swift',
-				percentage: 100,
-				color: '#f05138'
+				name: 'TypeScript',
+				percentage: 69.4,
+				color: '#3178c6'
+			},
+			{
+				name: 'JS',
+				percentage: 28.5 + 2.1,
+				color: '#f1e05a'
+			}
+		]}
+	/>
+	<Project
+		name="Docs MCP"
+		description="Create and fetch codebase documentation for AI inference using MCP protocol."
+		github={LINKS.GITHUB_HYPUR}
+		languages={[
+			{
+				name: 'TypeScript',
+				percentage: 69.4,
+				color: '#3178c6'
+			},
+			{
+				name: 'JS',
+				percentage: 28.5 + 2.1,
+				color: '#f1e05a'
+			}
+		]}
+	/>
+	<Project
+		name="Hypur"
+		description="JavaScript package to bring reusable and isolated reactivity to legacy client-side code."
+		github={LINKS.GITHUB_HYPUR}
+		languages={[
+			{
+				name: 'TypeScript',
+				percentage: 69.4,
+				color: '#3178c6'
+			},
+			{
+				name: 'JS',
+				percentage: 28.5 + 2.1,
+				color: '#f1e05a'
+			}
+		]}
+	/>
+	<Project
+		name="Svelte Scaled"
+		description="A bolierplate template for building scalable fullstack Svelte applications."
+		github={LINKS.GITHUB_HYPUR}
+		languages={[
+			{
+				name: 'TypeScript',
+				percentage: 69.4,
+				color: '#3178c6'
+			},
+			{
+				name: 'JS',
+				percentage: 28.5 + 2.1,
+				color: '#f1e05a'
 			}
 		]}
 	/>

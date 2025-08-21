@@ -38,6 +38,11 @@
 					Open Source
 				</span>
 			</a>
+			<a href="/writing">
+				<span class={`${page.url.pathname === '/writing' ? 'font-semibold text-black' : ''}`}>
+					Writing
+				</span>
+			</a>
 			<a href="/bookmarks">
 				<span class={`${page.url.pathname === '/bookmarks' ? 'font-semibold text-black' : ''}`}>
 					Bookmarks
