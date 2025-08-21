@@ -10,11 +10,11 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
-<main class="mx-auto flex min-h-screen max-w-6xl divide-x divide-gray-300">
-	<div class="h-screen min-w-[350px] p-7">
+<main class="min-h-screen md:mx-auto md:flex md:max-w-6xl md:divide-x md:divide-gray-300">
+	<div class="md:h-screen md:min-w-[300px]">
 		<Sidebar />
 	</div>
-	<div class="flex h-screen flex-grow overflow-y-auto border-r border-gray-300">
+	<div class="flex flex-grow overflow-y-auto border-r border-gray-300 pb-5 md:h-screen">
 		{@render children?.()}
 	</div>
 </main>

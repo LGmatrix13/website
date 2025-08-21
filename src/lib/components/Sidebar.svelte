@@ -6,19 +6,15 @@
 	import { page } from '$app/state';
 </script>
 
-<aside class="flex h-full flex-col space-y-7 border-b md:justify-between md:border-b-0">
+<aside
+	class="flex h-full flex-col space-y-7 border-b border-gray-300 p-7 md:justify-between md:border-b-0"
+>
 	<div class="space-y-5">
-		<div>
-			<img src={profilePicture} class="mb-5 h-28 w-28 rounded-full" alt="Headshot" />
-			<h1 class="mb-3 text-lg font-bold">👋 Hi, I'm Liam!</h1>
-			<p>
-				I'm a Software Engineer at<br />
-				{' '}
-				<a href={LINKS.DB} target="_blank" rel="noopener noreferrer">
-					<span class="text-blue-600 hover:text-blue-800"> Deutsche Bank. </span>
-				</a>
-			</p>
-		</div>
+		<button
+			class="cursor-pointer rounded-lg bg-blue-700 px-3 py-1 tracking-wide transition ease-in-out hover:bg-blue-800"
+		>
+			<span class="transform text-sm font-medium text-white">LIAM GROSSMAN</span>
+		</button>
 		<div class="flex flex-col space-y-3">
 			<a href="/">
 				<span
@@ -45,6 +41,15 @@
 					}`}
 				>
 					Projects
+				</span>
+			</a>
+			<a href="/blog">
+				<span
+					class={`font-medium ${
+						page.url.pathname === '/blog' ? 'underline decoration-blue-600 decoration-2' : ''
+					}`}
+				>
+					Blog
 				</span>
 			</a>
 		</div>
