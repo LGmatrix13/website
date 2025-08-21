@@ -5,7 +5,7 @@
 </script>
 
 <section id="projects" class="flex flex-grow flex-col" use:animations.fadeBlurIn>
-	<h2 class="px-5 pt-5 text-lg font-bold">Projects</h2>
+	<h2 class="px-5 pt-5 text-lg font-bold text-black">Projects</h2>
 	<Project
 		name="Hymn Together"
 		description="Native iOS app for listening, sharing, and saving hymns."

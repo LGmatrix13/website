@@ -20,7 +20,7 @@
 		{#each languages as language}
 			<div class="flex flex-row items-center space-x-2 text-sm">
 				<div class="h-2 w-2 rounded-full" style={`background-color: ${language.color}`}></div>
-				<span>{language.name}</span>
+				<span class="font-medium">{language.name}</span>
 			</div>
 		{/each}
 	</div>
