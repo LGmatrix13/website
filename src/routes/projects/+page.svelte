@@ -79,21 +79,4 @@
 			}
 		]}
 	/>
-	<Project
-		name="Hypur"
-		description="JavaScript package to bring flexible reactivity to server-side applications."
-		github={LINKS.GITHUB_HYPUR}
-		languages={[
-			{
-				name: 'TypeScript',
-				percentage: 69.4,
-				color: '#3178c6'
-			},
-			{
-				name: 'JS',
-				percentage: 28.5 + 2.1,
-				color: '#f1e05a'
-			}
-		]}
-	/>
 </section>
