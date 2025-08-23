@@ -11,6 +11,11 @@
 		description="Building payment infrastructure in the Corporate Bank divison."
 	/>
 	<Experience
+		company="Google Summer of Code"
+		position="Contributor"
+		description="Worked alongside the Scala Center to develop business-centric abstractions."
+	/>
+	<Experience
 		company="Intapp"
 		position="Fullstack Software Engineer Intern"
 		description="Returning internship. Collaborated with an agile senior engineering team to redesign Intapp's Time product."
