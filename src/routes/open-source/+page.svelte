@@ -9,7 +9,7 @@
 	<Project
 		name="Mini Model"
 		description="Create refined, specilized models and agents with LLMs."
-		github={LINKS.GITHUB_HYPUR}
+		github={LINKS.GITHUB_MINI_MODEL}
 		languages={[
 			{
 				name: 'Python',
