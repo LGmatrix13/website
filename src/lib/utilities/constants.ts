@@ -1,5 +1,5 @@
 export const LINKS = Object.freeze({
-	LINKEDIN: 'https://linkedin.com/in/liam_grossman',
+	LINKEDIN: 'https://www.linkedin.com/in/liam-grossman',
 	GITHUB: 'https://github.com/LGmatrix13',
 	GITHUB_PADLOCK: 'https://github.com/LGmatrix13/padlock',
 	GITHUB_HYMN_TOGETHER: 'https://github.com/LGmatrix13/hymn-together-2',
