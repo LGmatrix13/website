@@ -9,5 +9,7 @@ export const LINKS = Object.freeze({
 	LINKEDIN_BEHAIVIOR: 'https://www.linkedin.com/company/behaivior/',
 	LINKEDIN_INTAPP: 'https://www.linkedin.com/company/intapp/',
 	DB: 'https://db.com',
-	RESUME: '/resume.pdf'
+	GCC: 'https://www.gcc.edu/Home/Academics/Majors-Departments/Science-Engineering-Mathematics/Computer-Science',
+	RESUME: '/resume.pdf',
+	THYMELY: 'https://thymely.ai'
 });

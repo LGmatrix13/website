@@ -2,7 +2,6 @@
 	import { LINKS } from '$lib/utilities/constants';
 	import LinkedinIcon from './LinkedinIcon.svelte';
 	import GithubIcon from './GithubIcon.svelte';
-	import profilePicture from '../assets/liam_grossman.jpg';
 	import { page } from '$app/state';
 </script>
 
@@ -38,10 +37,8 @@
 					Open Source
 				</span>
 			</a>
-			<a href="/writing">
-				<span class={`${page.url.pathname === '/writing' ? 'font-semibold text-black' : ''}`}>
-					Writing
-				</span>
+			<a href="/resume.pdf">
+				<span>Resume</span>
 			</a>
 			<a href="/bookmarks">
 				<span class={`${page.url.pathname === '/bookmarks' ? 'font-semibold text-black' : ''}`}>

@@ -5,6 +5,7 @@
 	import node_logo from '$lib/assets/node.svg';
 	import python_logo from '$lib/assets/python.svg';
 	import gcc_logo from '$lib/assets/gcc.ico';
+	import { LINKS } from '$lib/utilities/constants';
 </script>
 
 {#snippet textWithLogo({ logo, text }: { logo: string; text: string })}
@@ -23,7 +24,7 @@
 			My name is Liam and I am a Software Engineer at <a
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://db.com"
+				href={LINKS.DB}
 				class="inline-block"
 			>
 				{@render textWithLogo({
@@ -32,14 +33,14 @@
 				})}
 			</a>, where I am building payment infrastructure in the corporate bank division. I also
 			co-founded
-			<a href="https://thymely.ai" target="_blank" rel="noopener noreferrer" class="inline-block">
+			<a href={LINKS.THYMELY} target="_blank" rel="noopener noreferrer" class="inline-block">
 				{@render textWithLogo({
 					logo: thymely_logo,
 					text: 'Thymely'
 				})}</a
 			>, an AI application to help higher education instutions boost student engagement. I am a
 			proud graduate of
-			<a href="https://gcc.edu" target="_blank" rel="noopener noreferrer" class="inline-block">
+			<a href={LINKS.GCC} target="_blank" rel="noopener noreferrer" class="inline-block">
 				{@render textWithLogo({
 					logo: gcc_logo,
 					text: 'Grove City College'
@@ -76,15 +77,10 @@
 					text: 'Python'
 				})}</a
 			>
-			ecosystems. I try to share what I learn here on my
+			ecosystems. I'm planning on sharing what I learn here on my website soon with a new blog! If we
+			haven't met, feel free to connect with me on
 			<a
-				href="/blog"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="text-blue-600 transition ease-in-out hover:text-blue-800">blog</a
-			>. My latest posts are below! Feel free to connect with me on
-			<a
-				href="https://linkedin.com/in/liam_grossman"
+				href={LINKS.LINKEDIN}
 				target="_blank"
 				rel="noopener noreferrer"
 				class="text-blue-600 transition ease-in-out hover:text-blue-800">LinkedIn</a
