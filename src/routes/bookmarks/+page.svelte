@@ -23,7 +23,12 @@
 		title="How to increase your surface area for luck"
 		href="https://usefulfictions.substack.com/p/how-to-increase-your-surface-area"
 	/>
+	<Bookmark
+		title="The Illusion of Thinking"
+		href="https://machinelearning.apple.com/research/illusion-of-thinking"
+	/>
 	<Bookmark title="Codin' Dirty" href="https://htmx.org/essays/codin-dirty/" />
 	<Bookmark title="Complexity Budget" href="https://htmx.org/essays/complexity-budget/" />
 	<Bookmark title="Software As Art" href="https://www.youtube.com/watch?v=vekEjoMSi38" />
+	<Bookmark title="API Design" href="https://www.youtube.com/watch?v=dTstnhS3moc" />
 </section>
