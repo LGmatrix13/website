@@ -12,5 +12,6 @@ export const LINKS = Object.freeze({
 	DB: 'https://db.com',
 	GCC: 'https://www.gcc.edu/Home/Academics/Majors-Departments/Science-Engineering-Mathematics/Computer-Science',
 	RESUME: '/resume.pdf',
-	THYMELY: 'https://thymely.ai'
+	THYMELY: 'https://thymely.ai',
+	SCRIBE: 'https://github.com/LGmatrix13/scribe'
 });

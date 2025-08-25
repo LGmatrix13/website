@@ -19,6 +19,18 @@
 		]}
 	/>
 	<Project
+		name="Scribe"
+		description="Create and fetch codebase documentation for AI inference using MCP protocol."
+		github={LINKS.SCRIBE}
+		languages={[
+			{
+				name: 'Python',
+				percentage: 100,
+				color: '#3572a5'
+			}
+		]}
+	/>
+	<Project
 		name="Hypur"
 		description="JavaScript package to bring reusable and isolated reactivity to legacy client-side code."
 		github={LINKS.GITHUB_HYPUR}
