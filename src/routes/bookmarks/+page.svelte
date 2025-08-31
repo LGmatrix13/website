@@ -31,4 +31,8 @@
 	<Bookmark title="Complexity Budget" href="https://htmx.org/essays/complexity-budget/" />
 	<Bookmark title="Software As Art" href="https://www.youtube.com/watch?v=vekEjoMSi38" />
 	<Bookmark title="API Design" href="https://www.youtube.com/watch?v=dTstnhS3moc" />
+	<Bookmark
+		title="Sorry for not posting, I was cleaning up AI codebases"
+		href="https://www.youtube.com/watch?v=BBq_Ie2ed7A"
+	/>
 </section>
