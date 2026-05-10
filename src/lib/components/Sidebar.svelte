@@ -8,40 +8,35 @@
 <aside
 	class="flex h-full flex-col space-y-7 border-b border-gray-300 p-7 md:justify-between md:border-b-0"
 >
-	<div class="flex flex-col space-y-5 transition ease-in-out hover:text-black">
+	<div class="flex flex-col space-y-5 transition ease-in-out">
 		<a href="/">
 			<button
-				class="cursor-pointer rounded-lg bg-blue-700 px-3 py-1 tracking-wide transition ease-in-out hover:scale-110 hover:-rotate-2 hover:bg-blue-800"
+				class="cursor-pointer rounded-lg bg-blue-800 px-2.5 py-1 tracking-wide transition ease-in-out hover:bg-blue-900"
 			>
-				<span class="transform text-sm font-extrabold text-white">LIAM GROSSMAN</span>
+				<span class="transform text-sm font-medium tracking-wider text-white uppercase">Liam Grossman</span>
 			</button>
 		</a>
-		<div class="flex flex-col space-y-3">
+		<div class="flex flex-col font-medium space-y-3">
 			<a href="/">
-				<span class={`${page.url.pathname === '/' ? 'font-semibold text-black' : ''}`}>
+				<span class={`${page.url.pathname === '/' ? 'text-black font-medium' : 'hover:text-black'}`}>
 					About Me
 				</span>
 			</a>
 			<a href="/experience">
-				<span class={`${page.url.pathname === '/experience' ? 'font-semibold text-black ' : ''}`}>
+				<span class={`${page.url.pathname === '/experience' ? 'text-black font-medium' : 'hover:text-black'}`}>
 					Experience
 				</span>
 			</a>
 			<a href="/projects">
-				<span class={`${page.url.pathname === '/projects' ? 'font-semibold text-black ' : ''}`}>
+				<span class={`${page.url.pathname === '/projects' ? 'text-black font-medium' : 'hover:text-black'}`}>
 					Projects
-				</span>
-			</a>
-			<a href="/open-source">
-				<span class={`${page.url.pathname === '/open-source' ? 'font-semibold text-black ' : ''}`}>
-					Open Source
 				</span>
 			</a>
 			<a href="/resume.pdf">
 				<span>Resume</span>
 			</a>
 			<a href="/bookmarks">
-				<span class={`${page.url.pathname === '/bookmarks' ? 'font-semibold text-black' : ''}`}>
+				<span class={`${page.url.pathname === '/bookmarks' ? 'text-black font-medium': 'hover:text-black'}`}>
 					Bookmarks
 				</span>
 			</a>

@@ -13,12 +13,22 @@
 		class="flex cursor-pointer items-center space-x-1 rounded-full border border-gray-300 px-2 text-black transition ease-in-out hover:bg-gray-100/[.3]"
 	>
 		<img src={logo} class="h-[12px] w-[12px]" alt={text} />
-		<span class="text-sm font-medium text-black">{text}</span>
+		<span class="text-sm text-black">{text}</span>
 	</button>
 {/snippet}
 
 <section use:animations.fadeBlurIn class="space-y-3">
-	<h2 class="px-5 pt-5 text-lg font-bold text-black">👋 Hi, I'm Liam!</h2>
+	<div class="border-b font-medium  border-gray-300 text-black space-y-3 p-5" style={`background-color: rgb(255, 255, 255);
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.04' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");`}>
+		<h2 class="text-lg">👋 Hi, I'm Liam! I'm currently exploring...</h2>
+		<div class="space-y-2 text-md">
+			<h3>Machine Learning</h3>
+			<h3>Artifical Intelligence</h3>
+			<h3>AI Enablement</h3>
+			<h3>Developer Experience</h3>
+			<h3>Human Computer Interaction</h3>
+		</div>
+	</div>
 	<div class="space-y-3 px-5">
 		<p class="inline-block leading-7">
 			My name is Liam and I am a Software Engineer at <a
@@ -31,14 +41,7 @@
 					logo: db_logo,
 					text: 'Deutsche Bank'
 				})}
-			</a>, where I am building payment infrastructure in the corporate bank division. I also
-			co-founded
-			<a href={LINKS.THYMELY} target="_blank" rel="noopener noreferrer" class="inline-block">
-				{@render textWithLogo({
-					logo: thymely_logo,
-					text: 'Thymely'
-				})}</a
-			>, an AI application to help higher education instutions boost student engagement. I am a
+			</a>.  I work under the Engineering Platform and Practices team to develop bespoke AI/ML solutions to increase developer productivity. I am also a 
 			proud graduate of
 			<a href={LINKS.GCC} target="_blank" rel="noopener noreferrer" class="inline-block">
 				{@render textWithLogo({
@@ -52,7 +55,7 @@
 				href="https://en.wikipedia.org/wiki/Developer_Experience"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="text-blue-600 transition ease-in-out hover:text-blue-800"
+				class="text-blue-800 transition ease-in-out hover:text-blue-900 underline"
 			>
 				developer productivity</a
 			>. To hone in on this interest, I frequently try different technologies, paradigms, and
@@ -83,7 +86,7 @@
 				href={LINKS.LINKEDIN}
 				target="_blank"
 				rel="noopener noreferrer"
-				class="text-blue-600 transition ease-in-out hover:text-blue-800">LinkedIn</a
+				class="text-blue-800 underline transition ease-in-out hover:text-blue-900">LinkedIn</a
 			>, I'm always willing to learn something new!
 		</p>
 	</div>

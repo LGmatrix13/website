@@ -2,8 +2,7 @@
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import Sidebar from '$lib/components/Sidebar.svelte';
-	// Supports weights 100-900
-	import '@fontsource-variable/dm-sans';
+	import '@fontsource-variable/atkinson-hyperlegible-next/wght.css';
 	let { children } = $props();
 </script>
 
