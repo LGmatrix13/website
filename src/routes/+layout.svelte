@@ -2,7 +2,7 @@
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import Sidebar from '$lib/components/Sidebar.svelte';
-	import '@fontsource-variable/atkinson-hyperlegible-next/wght.css';
+	import '@fontsource-variable/golos-text/wght.css';
 	let { children } = $props();
 </script>
 

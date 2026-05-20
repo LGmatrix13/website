@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 body {
-  font-family: 'Atkinson Hyperlegible Next Variable', sans-serif;
+  font-family: 'Golos Text Variable', sans-serif;
 	@apply text-slate-700;
 }

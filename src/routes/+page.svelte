@@ -18,10 +18,10 @@
 {/snippet}
 
 <section use:animations.fadeBlurIn class="space-y-3">
-	<div class="border-b font-medium  border-gray-300 text-black space-y-3 p-5" style={`background-color: rgb(255, 255, 255);
+	<div class="border-b font-medium border-gray-300 text-black space-y-3 p-5" style={`background-color: rgb(255, 255, 255);
 background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.04' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");`}>
 		<h2 class="text-lg">👋 Hi, I'm Liam! I'm currently exploring...</h2>
-		<div class="space-y-2 text-md">
+		<div class="space-y-2 text-sm">
 			<h3>Machine Learning</h3>
 			<h3>Artifical Intelligence</h3>
 			<h3>AI Enablement</h3>
