@@ -11,24 +11,24 @@
 	<div class="flex flex-col space-y-5 transition ease-in-out">
 		<a href="/">
 			<button
-				class="cursor-pointer rounded-lg bg-blue-800 px-2.5 py-1 tracking-wide transition ease-in-out hover:bg-blue-900"
+				class="cursor-pointer rounded-lg bg-gray-900 px-2.5 py-1 tracking-wide transition ease-in-out hover:bg-gray-950"
 			>
 				<span class="transform text-sm font-medium tracking-wider text-white uppercase">Liam Grossman</span>
 			</button>
 		</a>
 		<div class="flex flex-col font-medium space-y-3">
 			<a href="/">
-				<span class={`${page.url.pathname === '/' ? 'text-black font-medium' : 'hover:text-black'}`}>
+				<span class={`${page.url.pathname === '/' ? 'text-gray-950 font-medium' : 'hover:text-gray-950'}`}>
 					About Me
 				</span>
 			</a>
 			<a href="/experience">
-				<span class={`${page.url.pathname === '/experience' ? 'text-black font-medium' : 'hover:text-black'}`}>
+				<span class={`${page.url.pathname === '/experience' ? 'text-gray-950 font-medium' : 'hover:text-gray-950'}`}>
 					Experience
 				</span>
 			</a>
 			<a href="/projects">
-				<span class={`${page.url.pathname === '/projects' ? 'text-black font-medium' : 'hover:text-black'}`}>
+				<span class={`${page.url.pathname === '/projects' ? 'text-gray-950 font-medium' : 'hover:text-gray-950'}`}>
 					Projects
 				</span>
 			</a>
@@ -36,7 +36,7 @@
 				<span>Resume</span>
 			</a>
 			<a href="/bookmarks">
-				<span class={`${page.url.pathname === '/bookmarks' ? 'text-black font-medium': 'hover:text-black'}`}>
+				<span class={`${page.url.pathname === '/bookmarks' ? 'text-gray-950 font-medium': 'hover:text-gray-950'}`}>
 					Bookmarks
 				</span>
 			</a>

@@ -10,15 +10,15 @@
 
 {#snippet textWithLogo({ logo, text }: { logo: string; text: string })}
 	<button
-		class="flex cursor-pointer items-center space-x-1 rounded-full border border-gray-300 px-2 text-black transition ease-in-out hover:bg-gray-100/[.3]"
+		class="flex cursor-pointer items-center space-x-1 rounded-full border border-gray-300 px-2 text-gray-950 transition ease-in-out hover:bg-gray-100/[.3]"
 	>
 		<img src={logo} class="h-[12px] w-[12px]" alt={text} />
-		<span class="text-sm text-black">{text}</span>
+		<span class="text-sm text-gray-950">{text}</span>
 	</button>
 {/snippet}
 
 <section use:animations.fadeBlurIn class="space-y-3">
-	<div class="border-b font-medium border-gray-300 text-black space-y-3 p-5" style={`background-color: rgb(255, 255, 255);
+	<div class="border-b font-medium border-gray-300 text-gray-950 space-y-3 p-5" style={`background-color: rgb(255, 255, 255);
 background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.04' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");`}>
 		<h2 class="text-lg">👋 Hi, I'm Liam! I'm currently exploring...</h2>
 		<div class="space-y-2 text-sm">
@@ -55,7 +55,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
 				href="https://en.wikipedia.org/wiki/Developer_Experience"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="text-blue-800 transition ease-in-out hover:text-blue-900 underline"
+				class="text-gray-900 transition ease-in-out hover:text-gray-950 underline"
 			>
 				developer productivity</a
 			>. To hone in on this interest, I frequently try different technologies, paradigms, and
@@ -86,7 +86,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
 				href={LINKS.LINKEDIN}
 				target="_blank"
 				rel="noopener noreferrer"
-				class="text-blue-800 underline transition ease-in-out hover:text-blue-900">LinkedIn</a
+				class="text-gray-900 underline transition ease-in-out hover:text-gray-950">LinkedIn</a
 			>, I'm always willing to learn something new!
 		</p>
 	</div>

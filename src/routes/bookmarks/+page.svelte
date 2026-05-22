@@ -4,7 +4,7 @@
 </script>
 
 <section id="blog" class="flex flex-grow flex-col" use:animations.fadeBlurIn>
-	<h2 class="px-5 pt-5 text-lg font-medium text-black">Bookmarks</h2>
+	<h2 class="px-5 pt-5 text-lg font-medium text-gray-950">Bookmarks</h2>
 	<Bookmark
 		title="It's Not Your Fault You're Behind In Life – A Software Engineer's Struggle"
 		href="https://www.youtube.com/watch?v=clF2waKBQvk"

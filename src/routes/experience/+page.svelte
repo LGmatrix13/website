@@ -4,7 +4,7 @@
 </script>
 
 <section id="experience" class="flex flex-grow flex-col" use:animations.fadeBlurIn>
-	<h2 class="px-5 pt-5 text-lg font-medium text-black">Experience</h2>
+	<h2 class="px-5 pt-5 text-lg font-medium text-gray-950">Experience</h2>
 	<Experience
 		company="Deutsche Bank"
 		position="Software Engineer, AI/ML"

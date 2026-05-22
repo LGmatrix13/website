@@ -8,6 +8,6 @@
 </script>
 
 <div class="space-y-2 border-b border-gray-300 p-5 last:border-b-0">
-	<h2 class="font-medium text-black">{title}</h2>
+	<h2 class="font-medium text-gray-950">{title}</h2>
 	<p>{description}</p>
 </div>

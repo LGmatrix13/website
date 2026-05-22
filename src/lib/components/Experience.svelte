@@ -13,8 +13,8 @@
 >
 	<div class="space-y-2">
 		<div class="space-y-1">
-			<h2 class="font-medium text-black">{company}</h2>
-			<h3 class="text-sm text-black">{position}</h3>
+			<h2 class="font-medium text-gray-950">{company}</h2>
+			<h3 class="text-sm text-gray-950">{position}</h3>
 		</div>
 		<p>{description}</p>
 	</div>
