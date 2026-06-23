@@ -32,9 +32,6 @@
 					Projects
 				</span>
 			</a>
-			<a href="/resume.pdf">
-				<span>Resume</span>
-			</a>
 			<a href="/bookmarks">
 				<span class={`${page.url.pathname === '/bookmarks' ? 'text-gray-950 font-medium': 'hover:text-gray-950'}`}>
 					Bookmarks
